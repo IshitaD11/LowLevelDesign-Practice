@@ -1,4 +1,4 @@
-package ScalerLLD.LLD8_Semaphores-Semaphores;
+package ScalerLLD.LLD8_Semaphores;
 
 public class Main {
     

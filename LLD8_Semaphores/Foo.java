@@ -1,3 +1,5 @@
+package ScalerLLD.LLD8_Semaphores;
+
 import java.util.concurrent.Semaphore;
 
 class Foo {

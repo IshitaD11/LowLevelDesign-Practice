@@ -1,4 +1,4 @@
-package ScalerLLD.LLD6.Assignment1;
+package ScalerLLD.LLD6_Callables_Runnables.Assignment1;
 
 // A class Node to represent the Node of a BinaryTree.
 // Node should have two properties - left and right of type Node.

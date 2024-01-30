@@ -1,4 +1,4 @@
-package ScalerLLD.LLD6.Assignment1;
+package ScalerLLD.LLD6_Callables_Runnables.Assignment1;
 
 import java.util.LinkedList;
 import java.util.Queue;
