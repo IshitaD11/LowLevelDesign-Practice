@@ -33,21 +33,25 @@ main(){
 - Problem 1: We want only one instance of the class. 
 Objects get created by the constructor, so make the constructor private. Create a method getInstance inside DBConnect to pass new DBConnect(). make getInstance static to access it from the main method without creating a DBConnect instance. 
 
-`public class DBConnect{  
+```java
+public class DBConnect{  
     private DBConnect(){    }  
     public static DBConnect getInstance(){  
         return new DBConnect();  
     }  
-}`
+}
+```
 
-`main(){  
+```java
+main(){  
     DBConnect db = DBConnect.getInstance();  
-}`
+}```
 
 - Problem 2: Still we can create multiple objects by calling DBConnect.getInstance() multiple times.
 Use the DBConnect as a private reference variable inside class dbConnect, if the attribute is already instantiated return that object instance only, otherwise create a new instance. Make the DBConnect variable static to access it from the getInstance static method.
 
-`public class DBConnect {
+```java
+public class DBConnect {
     private static DBConnect dbinstance = null;
 
     private DBConnect(){
@@ -58,18 +62,22 @@ Use the DBConnect as a private reference variable inside class dbConnect, if the
             return new DBConnect();
         return dbinstance;
     }
-}`
+}
+```
 
 All ref variables of dbconnect point to the same instance of DBConnect.
 
-`DBConnect db = DBConnect.getInstance();
-DBConnect db2 = DBConnect.getInstance();`
+```java
+DBConnect db = DBConnect.getInstance();
+DBConnect db2 = DBConnect.getInstance();
+```
 
 - Problem 3: It is not thread-safe. If multiple threads come inside getInstance and check dbinstance variable as null at the same time, all can create different DBConnect objects.
 
 Solve by eager loading of the object. We are creating the object as soon as the class gets loaded.
 
-`public class DBConnect {
+```java
+public class DBConnect {
     private static DBConnect dbinstance = new DBConnect();
 
     private DBConnect(){
@@ -78,13 +86,15 @@ Solve by eager loading of the object. We are creating the object as soon as the 
     public static DBConnect getInstance(){
         return dbinstance;
     }
-}`
+}
+```
 
 - Problem 4: It makes the application load time very high, as an Object is getting created which is the Application load time, when classes get loaded. Also, if I want to initialize some attributes by the constructor, it is not possible to pass any parameter to the constructor. 
 
 Using the previous solution of checking if the object is instantiated inside getInstance, make getInstance Synchronised/use locks.
 
-`public class DBConnect {
+```java
+public class DBConnect {
     
     private int established;
     private static DBConnect dbinstance = null;
@@ -98,18 +108,22 @@ Using the previous solution of checking if the object is instantiated inside get
             return new DBConnect(connect);
         return dbinstance;
     }
-}`
+}
+```
 
-`main(){
+```java
+main(){
     DBConnect db2 = DBConnect.getInstance(1);
-}`
+}
+```
 
 - Problem 5: After the DBConnection is established/instantiated for the first time, the critical section is not critical anymore, but the Synchronised method will not allow multiple threads, making the program slower. For only purpose of controlling the threads for first-time instance creation, we are making the whole program wait for 1 thread to pass the method at a time.
 
 Use **the double check locks technique**. It solves the issue of later threads running together. 
 getInstance is now Synchronized, as well once DBConnection is instantiated, multiple threads can pass through the getInstance method all at once, without any sync issue.
 
-`public class DBConnect {
+```java
+public class DBConnect {
     private int established;
     private static DBConnect dbinstance = null;
     private static Lock lock = new ReentrantLock();
@@ -129,6 +143,7 @@ getInstance is now Synchronized, as well once DBConnection is instantiated, mult
             lock.unlock();
         }
         return dbinstance;
-    }`
+    }
 
-}`
+}
+```
