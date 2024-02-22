@@ -16,11 +16,11 @@ We will use the DBConnection class here as an example for the Singleton Design P
 - Base case: class DBConnect
 
 
-`public class DBConnect{  
+````public class DBConnect{  
     DBConnect(){
         established = 1;
     }  
-}`
+}````
 
 `main(){  
     DBConnect db = new DBConnect();  
