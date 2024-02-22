@@ -150,7 +150,7 @@ public class DBConnect {
 ```
 
 
-####Disadvantages:
+#### Disadvantages:
 - Violates the Single Responsibility Principle. The pattern solves two problems at the time.
 - The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
 - The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
