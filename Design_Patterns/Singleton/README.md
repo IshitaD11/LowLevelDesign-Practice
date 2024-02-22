@@ -15,13 +15,13 @@ We will use the DBConnection class here as an example for the Singleton Design P
 
 - Base case: class DBConnect
 
-`public class DBConnect {
+`public class DBConnect{
     DBConnect(){
         established = 1;
     }
-}`
+}
 
-`main(){
+main(){
     DBConnect db = new DBConnect();
 }`
 
@@ -35,11 +35,11 @@ Objects get created by the constructor, so make the constructor private. Create 
     public static DBConnect getInstance(){
         return new DBConnect();
     }
-}`
+}
 
 main(){
     DBConnect db = DBConnect.getInstance();
-}
+}`
 
 - Problem 2: Still we can create multiple objects by calling DBConnect.getInstance() multiple times.
 Use the DBConnect as a private reference variable inside class dbConnect, if the attribute is already instantiated return that object instance only, otherwise create a new instance. Make the DBConnect variable static to access it from the getInstance static method.
