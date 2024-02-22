@@ -1,5 +1,5 @@
 
-**# Singleton Design Pattern**
+# ** Singleton Design Pattern** # 
 
 It allows you to create only 1 object of the class, while providing global access point to this Object. This is useful in the case of controlling access to a shared resource like database connection or a file. Like global variable, singleton pattern lets you access the same object from anywhere in the program, but also protects from being overwritten by other code.
 
