@@ -16,15 +16,19 @@ We will use the DBConnection class here as an example for the Singleton Design P
 - Base case: class DBConnect
 
 
-````public class DBConnect{  
+```java
+public class DBConnect{  
     DBConnect(){
         established = 1;
     }  
-}````
+}
+```
 
-`main(){  
+```java
+main(){  
     DBConnect db = new DBConnect();  
-}`
+}
+```
 
 - Problem 1: We want only one instance of the class. 
 Objects get created by the constructor, so make the constructor private. Create a method getInstance inside DBConnect to pass new DBConnect(). make getInstance static to access it from the main method without creating a DBConnect instance. 
