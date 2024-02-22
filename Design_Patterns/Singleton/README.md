@@ -45,7 +45,8 @@ public class DBConnect{
 ```java
 main(){  
     DBConnect db = DBConnect.getInstance();  
-}```
+}
+```
 
 - Problem 2: Still we can create multiple objects by calling DBConnect.getInstance() multiple times.
 Use the DBConnect as a private reference variable inside class dbConnect, if the attribute is already instantiated return that object instance only, otherwise create a new instance. Make the DBConnect variable static to access it from the getInstance static method.
