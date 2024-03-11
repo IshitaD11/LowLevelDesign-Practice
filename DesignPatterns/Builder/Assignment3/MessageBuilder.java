@@ -84,7 +84,7 @@ public class MessageBuilder {
             return this;
         }
 
-        public MessageBuilder builder(){
+        public MessageBuilder build(){
             return new MessageBuilder(this);
         }
     }
