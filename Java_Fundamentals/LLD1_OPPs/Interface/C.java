@@ -1,4 +1,4 @@
-package ScalerLLD.LLD1_OPPs.Interface;
+package LowLevelDesign.Java_Fundamentals.LLD1_OPPs.Interface;
 
 public class C implements I{
     
@@ -16,5 +16,10 @@ public class C implements I{
     @Override
     public void fun2() {
         
+    }
+
+    @Override
+    public void func3() {
+        // to_do
     }
 }

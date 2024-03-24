@@ -1,4 +1,4 @@
-package ScalerLLD.LLD5_Threads.AdditionalProblem_3;
+package LowLevelDesign.Java_Fundamentals.LLD5_Threads.AdditionalProblem_3;
 
 import java.util.HashMap;
 

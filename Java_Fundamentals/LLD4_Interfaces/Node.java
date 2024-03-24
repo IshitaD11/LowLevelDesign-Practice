@@ -1,4 +1,4 @@
-package ScalerLLD.LLD4_Interfaces;
+package LowLevelDesign.Java_Fundamentals.LLD4_Interfaces;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package ScalerLLD.LLD4_Static;
+package LowLevelDesign.Java_Fundamentals.LLD4_Static;
 
 public class Main {
     public static void main(String[] args) {

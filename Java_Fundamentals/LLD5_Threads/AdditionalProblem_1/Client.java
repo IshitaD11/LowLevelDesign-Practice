@@ -1,4 +1,4 @@
-package ScalerLLD.LLD5_Threads.AdditionalProblem_1;
+package LowLevelDesign.Java_Fundamentals.LLD5_Threads.AdditionalProblem_1;
 
 import java.util.Scanner;
 
