@@ -1,1 +1,1 @@
-# Scaler-LLD
+# Low Level Design Practice
