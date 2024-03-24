@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Prototype.Assignment3;
+package LowLevelDesign.DesignPatterns.Prototype.Assignment3;
 
 public interface UserPrototypeRegistry {
 

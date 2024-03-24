@@ -1,7 +1,7 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4.sender;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4.sender;
 
-import ScalerLLD.DesignPatterns.Factory.Assignment4.NotificationType;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.Notification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.NotificationType;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.Notification;
 
 public class EmailNotificationSender extends NotificationSender {
 

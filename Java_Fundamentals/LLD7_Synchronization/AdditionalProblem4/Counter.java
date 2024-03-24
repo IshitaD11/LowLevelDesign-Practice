@@ -1,4 +1,4 @@
-package ScalerLLD.LLD7_Synchronization.AdditionalProblem4;
+package LowLevelDesign.Java_Fundamentals.LLD7_Synchronization.AdditionalProblem4;
 
 public class Counter {
     private int count;

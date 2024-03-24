@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment2;
+package LowLevelDesign.DesignPatterns.Factory.Assignment2;
 
 public class MP3Player extends AudioPlayer{
     // private int volume;

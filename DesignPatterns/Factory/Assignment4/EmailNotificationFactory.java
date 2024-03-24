@@ -1,11 +1,11 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4;
 
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.EmailNotification;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.Notification;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.sender.EmailNotificationSender;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.template.EmailNotificationTemplate;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.EmailNotification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.Notification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.sender.EmailNotificationSender;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.template.EmailNotificationTemplate;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
 
 public class EmailNotificationFactory extends NotificationFactory{
 

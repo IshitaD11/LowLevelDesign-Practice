@@ -1,4 +1,4 @@
-package ScalerLLD.LLD9_Collections.AdditionalProblem2;
+package LowLevelDesign.Java_Fundamentals.LLD9_Collections.AdditionalProblem2;
 
 import java.util.List;
 import java.util.TreeSet;

@@ -1,4 +1,4 @@
-package ScalerLLD.LLD6_Callables_Runnables.AdditionalProblem2;
+package LowLevelDesign.Java_Fundamentals.LLD6_Callables_Runnables.AdditionalProblem2;
 
 import java.util.ArrayList;
 import java.util.concurrent.Callable;

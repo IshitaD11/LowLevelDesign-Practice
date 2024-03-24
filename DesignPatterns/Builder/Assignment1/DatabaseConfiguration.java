@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Builder.Assignment1;
+package LowLevelDesign.DesignPatterns.Builder.Assignment1;
 
 public class DatabaseConfiguration{
 

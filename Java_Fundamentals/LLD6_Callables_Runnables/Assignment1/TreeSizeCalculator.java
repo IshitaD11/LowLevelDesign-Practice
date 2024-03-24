@@ -1,4 +1,4 @@
-package ScalerLLD.LLD6_Callables_Runnables.Assignment1;
+package LowLevelDesign.Java_Fundamentals.LLD6_Callables_Runnables.Assignment1;
 
 // Create a class TreeSizeCalculator to calculate the size of a BinaryTree using multiple threads.
 // TreeSizeCalculator constructor will be passed the root of the tree and ExecutorService to make new threads.

@@ -1,8 +1,8 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4;
 
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.Notification;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.Notification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
 
 public abstract class NotificationFactory {
 

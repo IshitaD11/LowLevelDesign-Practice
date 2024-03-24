@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Singleton.Assignment2;
+package LowLevelDesign.DesignPatterns.Singleton.Assignment2;
 
 import java.lang.System.Logger.Level;
 

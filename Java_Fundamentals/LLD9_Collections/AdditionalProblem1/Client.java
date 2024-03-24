@@ -1,4 +1,4 @@
-package ScalerLLD.LLD9_Collections.AdditionalProblem1;
+package LowLevelDesign.Java_Fundamentals.LLD9_Collections.AdditionalProblem1;
 
 import java.util.PriorityQueue;
 

@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Prototype.Assignment2;
+package LowLevelDesign.DesignPatterns.Prototype.Assignment2;
 
 public interface InvoicePrototypeRegistry {
 

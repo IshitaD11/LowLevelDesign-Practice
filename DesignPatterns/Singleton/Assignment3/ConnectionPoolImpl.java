@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Singleton.Assignment3;
+package LowLevelDesign.DesignPatterns.Singleton.Assignment3;
 
 import java.util.HashMap;
 import java.util.concurrent.locks.Lock;

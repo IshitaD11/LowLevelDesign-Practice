@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Builder.Assignment3;
+package LowLevelDesign.DesignPatterns.Builder.Assignment3;
 
 @WithBuilder
 public class MessageBuilder {

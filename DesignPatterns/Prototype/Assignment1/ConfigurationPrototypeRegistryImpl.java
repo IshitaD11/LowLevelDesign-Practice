@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Prototype.Assignment1;
+package LowLevelDesign.DesignPatterns.Prototype.Assignment1;
 
 import java.util.HashMap;
 

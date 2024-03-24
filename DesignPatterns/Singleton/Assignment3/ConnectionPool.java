@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Singleton.Assignment3;
+package LowLevelDesign.DesignPatterns.Singleton.Assignment3;
 
 public interface ConnectionPool {
 

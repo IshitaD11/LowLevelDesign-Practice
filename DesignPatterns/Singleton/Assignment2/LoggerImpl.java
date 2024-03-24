@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Singleton.Assignment2;
+package LowLevelDesign.DesignPatterns.Singleton.Assignment2;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;

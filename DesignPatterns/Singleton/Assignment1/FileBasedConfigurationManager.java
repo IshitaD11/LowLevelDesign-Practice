@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Singleton.Assignment1;
+package LowLevelDesign.DesignPatterns.Singleton.Assignment1;
 
 import java.io.FileInputStream;
 import java.io.IOException;

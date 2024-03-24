@@ -1,6 +1,6 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4.template;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4.template;
 
-import ScalerLLD.DesignPatterns.Factory.Assignment4.NotificationType;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.NotificationType;
 
 public class PushNotificationTemplate extends NotificationTemplate{
     public PushNotificationTemplate(String message) {

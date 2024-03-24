@@ -1,11 +1,11 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4;
 
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.Notification;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.notification.PushNotification;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.sender.PushNotificationSender;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
-import ScalerLLD.DesignPatterns.Factory.Assignment4.template.PushNotificationTemplate;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.Notification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.notification.PushNotification;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.sender.NotificationSender;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.sender.PushNotificationSender;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.template.NotificationTemplate;
+import LowLevelDesign.DesignPatterns.Factory.Assignment4.template.PushNotificationTemplate;
 
 public class PushNotificationFactory extends NotificationFactory{
 

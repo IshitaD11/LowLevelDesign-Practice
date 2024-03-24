@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Builder.Assignment2;
+package LowLevelDesign.DesignPatterns.Builder.Assignment2;
 
 @WithBuilder
 public class QueryBuilder {

@@ -1,7 +1,10 @@
-package ScalerLLD.DesignPatterns.Facade.Assignment4;
+package LowLevelDesign.DesignPatterns.Facade.Assignment4;
 
-// import ScalerLLD.DesignPatterns.Facade.Assignment4.models.Image;
-import ScalerLLD.DesignPatterns.Facade.Assignment4.services.*;
+import LowLevelDesign.DesignPatterns.Facade.Assignment4.services.AnalyticsService;
+import LowLevelDesign.DesignPatterns.Facade.Assignment4.services.FilterService;
+import LowLevelDesign.DesignPatterns.Facade.Assignment4.services.ImageLoader;
+import LowLevelDesign.DesignPatterns.Facade.Assignment4.services.ImageModifier;
+import LowLevelDesign.DesignPatterns.Facade.Assignment4.services.ImageWriter;
 
 public class ImageEditingManager {
 

@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment1;
+package LowLevelDesign.DesignPatterns.Factory.Assignment1;
 
 public class NotificationFactory {
 

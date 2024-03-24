@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Builder.Assignment1;
+package LowLevelDesign.DesignPatterns.Builder.Assignment1;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package ScalerLLD.DesignPatterns.Factory.Assignment4;
+package LowLevelDesign.DesignPatterns.Factory.Assignment4;
 
 public enum NotificationType {
     EMAIL,
