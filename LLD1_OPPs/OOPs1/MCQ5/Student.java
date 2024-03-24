@@ -1,4 +1,4 @@
-package OOPs1.MCQ5;
+package ScalerLLD.LLD1_OPPs.OOPs1.MCQ5;
 
 public class Student {
     int age;

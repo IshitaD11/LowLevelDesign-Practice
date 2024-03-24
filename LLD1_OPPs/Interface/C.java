@@ -1,4 +1,4 @@
-package Interface;
+package ScalerLLD.LLD1_OPPs.Interface;
 
 public class C implements I{
     
