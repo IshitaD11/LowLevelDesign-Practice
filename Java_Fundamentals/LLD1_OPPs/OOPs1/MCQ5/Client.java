@@ -13,6 +13,8 @@ public class Client {
         swap(s1, s2);
  
         s1.display();
+
+        Object obj = s1.getObject();
     }
  
     private static void swap(Student s1, Student s2) {
