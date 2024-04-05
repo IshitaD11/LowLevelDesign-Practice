@@ -1,4 +1,4 @@
-package LowLevelDesign.Java_Fundamentals.LLD10_Generics.practice;
+package LowLevelDesign.Java_Fundamentals.LLD9_Generics.practice;
 
 import java.util.Iterator;
 

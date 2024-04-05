@@ -1,4 +1,4 @@
-package LowLevelDesign.Java_Fundamentals.LLD8_Semaphores;
+package LowLevelDesign.Java_Fundamentals.LLD8_Semaphores.Assignment4;
 
 import java.util.concurrent.Semaphore;
 

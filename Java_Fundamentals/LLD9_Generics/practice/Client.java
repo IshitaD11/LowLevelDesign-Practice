@@ -1,4 +1,4 @@
-package LowLevelDesign.Java_Fundamentals.LLD10_Generics.practice;
+package LowLevelDesign.Java_Fundamentals.LLD9_Generics.practice;
 
 public class Client {
     public static void main(String[] args) {
